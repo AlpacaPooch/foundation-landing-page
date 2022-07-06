@@ -1,0 +1,168 @@
+body {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    align-items: center;
+    margin-left: 0px;
+}
+
+.header,
+.footer {
+    background-color: #1F2937;
+    width: 100%;
+}
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+    display: flex;
+    justify-content: flex-start;
+    margin-left: 50px;
+}
+.titlebody, 
+.headlink {
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.headtop {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headlinks {
+    display: inline-flex;
+    justify-content: flex-end;
+    gap: 18px;
+    margin-right: 50px;
+}
+.headbot {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin: 50px;
+}
+.titletext {
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+    margin-right: 50px;
+}
+.titlehead {
+    display: flex;
+    font-size: 48px;
+    font-weight: 1000;
+    color: #F9FAF8;
+    width: 300px;
+}
+.titlebody {
+    display: flex;
+    width: 300px;
+}
+.imgplaceholder {
+    display: flex;
+}
+
+.signtop {
+    background-color: #3882F6;
+    width: 100px;
+    border: 0px;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+}
+
+.headimg {
+    width: 200px;
+    border-radius: 10px;
+}
+
+
+
+.boxtitle {
+    font-size: 36px;
+    font-weight: 1000;
+    color: #1F2937;
+    padding: 25px;
+}
+.box img {
+    width: 150px;
+    border: 3px solid #3882F6;
+    border-radius: 10px;
+}
+.boxes {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+    margin-bottom: 50px;
+    gap: 20px;
+    width: 150px;
+}
+.box {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+
+
+
+.quotebox {
+    display: flex;
+    flex-direction: column;
+    background-color: #E5E7EB;
+    padding: 50px;
+}
+.quote {
+    display: flex;
+    font-size: 30px;
+    color: #1F2937;
+}
+.quoteauthor {
+    display: flex;
+    justify-content: flex-end;
+}
+
+
+.cta {
+    display: flex;
+    background-color: #3882F6;
+    padding: 35px 50px 35px 50px;
+    border-radius: 10px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.ctatext {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    color: #F9FAF8;
+}
+.ctahead {
+    display: flex;
+    justify-content: flex-start;
+}
+.ctabody {
+    display: flex;
+    justify-content: flex-start;
+}
+.signbot {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #F9FAF8;
+    background-color: #3882F6;
+    height: 30px;
+    width: 100px;
+    border: 2px solid #F9FAF8;
+    border-radius: 10px;
+    padding: 5px;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+
+.
