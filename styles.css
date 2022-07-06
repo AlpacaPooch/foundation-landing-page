@@ -1,9 +1,10 @@
 body {
+    font-family: 'Roboto', sans-serif;
     display: flex;
     flex-direction: column;
     text-align: center;
     align-items: center;
-    margin-left: 0px;
+    margin: 0px;
 }
 
 .header,
@@ -12,11 +13,12 @@ body {
     width: 100%;
 }
 .logo {
-    font-size: 24px;
+    font-size: 1.5rem;
     color: #F9FAF8;
     display: flex;
     justify-content: flex-start;
-    margin-left: 50px;
+    margin-left: 3.125rem;
+    margin-top: 2rem;
 }
 .titlebody, 
 .headlink {
@@ -32,31 +34,34 @@ body {
 .headlinks {
     display: inline-flex;
     justify-content: flex-end;
-    gap: 18px;
-    margin-right: 50px;
+    gap: 1.125rem;
+    margin-right: 3.125rem;
+    margin-top: 2rem;
 }
 .headbot {
     display: flex;
     flex-direction: row;
     justify-content: center;
-    margin: 50px;
+    margin: 3.125rem;
 }
 .titletext {
     display: flex;
     flex-direction: column;
-    margin-left: 50px;
-    margin-right: 50px;
+    text-align: left;
+    margin-left: 3.125rem;
+    margin-right: 3.125rem;
 }
 .titlehead {
     display: flex;
-    font-size: 48px;
+    justify-content: flex-start;
+    font-size: 3rem;
     font-weight: 1000;
     color: #F9FAF8;
-    width: 300px;
+    width: 30.75rem;
 }
 .titlebody {
     display: flex;
-    width: 300px;
+    width: 35.75rem;
 }
 .imgplaceholder {
     display: flex;
@@ -64,22 +69,22 @@ body {
 
 .signtop {
     background-color: #3882F6;
-    width: 100px;
-    border: 0px;
-    border-radius: 10px;
-    padding: 5px;
-    margin-top: 20px;
+    width: 6.25rem;
+    border: 0rem;
+    border-radius: 0.625rem;
+    padding: 0.313rem;
+    margin-top: 1.25rem;
 }
 
 .headimg {
-    width: 200px;
-    border-radius: 10px;
+    width: 12.5rem;
+    border-radius: 0.625rem;
 }
 
 
 
 .boxtitle {
-    font-size: 36px;
+    font-size: 2.25rem;
     font-weight: 1000;
     color: #1F2937;
     padding: 25px;
@@ -119,6 +124,7 @@ body {
     display: flex;
     font-size: 30px;
     color: #1F2937;
+    width: 45rem;
 }
 .quoteauthor {
     display: flex;
@@ -164,5 +170,9 @@ body {
     margin-left: 40px;
 }
 
-
-.
+.footer {
+    padding: 2rem;
+}
+.footertext {
+    color: #E5E7EB;
+}
